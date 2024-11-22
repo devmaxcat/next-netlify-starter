@@ -1,3 +1,19 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+import Link from "next/link";
+import Nav from "./Nav";
+
+export default function Header() {
+  return (
+   
+    <header>
+      
+      <Link href="/">
+        maxcart
+      </Link>
+
+      <Nav />
+      <div className="theme">
+        theme mode
+      </div>
+    </header>)
+
 }

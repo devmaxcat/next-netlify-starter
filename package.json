@@ -9,8 +9,14 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.22.11",
     "@netlify/plugin-nextjs": "^5.8.0",
+    "contentful": "^11.1.4",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "mongodb": "^6.9.0",
     "next": "^14.2.0",
+    "profile-generator-js": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
